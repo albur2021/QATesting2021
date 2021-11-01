@@ -1,0 +1,23 @@
+
+
+#index{
+    color:blue;
+    background-color: green;
+    border: 1px solid black;
+    font-size: 36px;
+}
+.index{
+    color:red;
+}
+#container{
+    margin: auto;
+    width: 1000px;
+    height: 1200px;
+    background-image: url("../images/sdlc.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 1px;
+}
+button{
+    color:white;
+}

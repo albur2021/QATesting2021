@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Common Body Tags</h1>
+    <ul>
+      <li>Headings and paragraphs of text</li>
+      <li>Images</li>
+      <li>Links</li>
+      <li>Lists</li>
+      <li>Tables</li>
+      <li>Forms</li>
+    </ul>
+    <h2>
+      Since we have learned basic tags of HTML Format, lets take a look on Form
+      in more Details and why we need them there?
+    </h2>
+    <p>
+        Forms - are one of the most important HTML tags we need to know. They are responsible for all the data exchange between the user (front-end) and the server (back-end). So it's very important that you have a good understanding of how to build them.
+A form's job is to take in user input and send it to the back-end to be processed. A form is declared by using the "form" tag, which will have attributes action and method that decide where the form information gets sent, and how it gets sent respectively. (Don't worry about the values we're using for these attributes yet, this is covered during your first stack.)
+Taking in the input is done by using input fields, usually designated by the "input" tag. Depending on the type of information required, the way in which we take in the information may be different. This is sometimes designated by a type attribute, and other times by a different tag. Each input will typically also have a label (<label>) that is the name of the field. To make sure that a specific label is linked/associated to a specific input element, we must add corresponding for attribute on the label with input's id attribute. Including a label tag around the input field is a convention that allows us to click on the label to focus on the input field.
+A name attribute also will typically go hand in hand with your input tags. They are used mainly for sending form data to the back end so don't worry about the name attribute for now. It will be explained further in your first stack.
+Let's look at what input types would be used in the following circumstances:
+When the user needs to enter a short amount of text, such as an email address or name.
+The appropriate input type here is text. Lets take look at example:
+    </p>
+    <form>    
+        <p>Please Register</p>
+        <label>
+            Name:<input type="text" name="name">
+        </label>
+        <p>Select your gender:</p>
+        <label>
+           Male<input type="radio" name="gender" value="male"> 
+        </label>
+        <label>
+           Female<input type="radio" name="gender" value="female">
+        </label>
+        <label>
+           Prefer not to say<input type="radio" name="gender" value="decline">
+        </label>
+        <p>For security, enter your password.</p>
+        <label>
+            Password:<input type="password" name="password">
+        </label>
+        <input type="submit" value="Click here to register">
+    </form>
+  </body>
+</html>
