@@ -1,4 +1,10 @@
+#container{
+    background-image: url("../images/download.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color:white;
 
+}
 .forward{
     color:white
 }
@@ -15,6 +21,7 @@ p{
     height: 500px;
     margin: auto;
     justify-content: center; 
+    
 }
 a{
     color:red;
