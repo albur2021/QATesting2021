@@ -1,0 +1,155 @@
+
+
+
+
+*{
+    margin:0px;
+    padding:0px
+}
+#container{
+    margin: auto;
+    width: 1000px;
+    height: 1200px;
+}
+
+#header{
+    height: 100px;
+  
+    
+    /* justify-content: center; */
+    border-bottom:  2px solid black;
+    padding-top: 30px;
+}
+#service{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+}
+
+/* /////////////////////////////////////////// */
+#main{
+    height: 700px;
+    
+   
+    
+}
+#navmain1{
+   display: flex;
+   justify-content: space-around; 
+   align-items: center;
+    position: relative;
+}
+#logowrapper{
+    display: flex;
+    border: 5px solid grey;
+    margin-left: 50px;
+    
+}
+#safeway-banner{
+    width: 400px;
+    height: 100px;
+}
+.logos{
+    width: 50px;
+}
+#noStoreSelected{
+    /* display: flex; */
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: 80px;
+    margin-top: 30px;
+       
+}
+
+#singin{
+    display: inline-block;
+    
+    height: 50px;
+}
+#userLogo{
+    width: 40px;
+    height: 40px;
+}
+
+#navmain2{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    position: relative;
+ 
+    
+}
+#options{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    padding-left:100px;
+    padding-right: 100px;
+    font-size: 30px;
+    color: white;
+    height: 100px;
+    background-color: red;
+    height: 50px;
+   
+}
+
+#navmain3{
+    display: flex;
+    align-items:center; 
+    margin-left: 100px;
+   
+}
+.shopLog{
+    width: 250px;
+    height: 500px;
+    margin: auto;
+   
+    justify-content: center;
+   
+}
+
+.shopLog img{
+    width: 100px;
+    height: 100px;
+    
+}
+p{
+    display: flex;
+    font-size: 10px;
+   
+}
+#mainQuestion{
+    margin-left: 300px;
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////// */
+#footer{
+    height: 300px;
+  
+    display: flex;
+    margin-top: 20px;
+   
+  
+    
+}
+
+#adimageWrapper{
+    display: inline-block;
+    justify-content: space-around;
+    margin:5px;
+}
+.adimages{
+    padding: 0px;
+    width: 180px;
+    height: 130px;
+
+}
