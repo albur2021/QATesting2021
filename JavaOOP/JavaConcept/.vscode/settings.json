@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "WeekOne"
+    ],
+    "java.project.outputPath": "bin"
+}
